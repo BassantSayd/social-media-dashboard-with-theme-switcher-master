@@ -1,0 +1,23 @@
+.account-card {
+  background-color: #252547;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.account-card h3 {
+  color: #6c6c91;
+}
+
+.account-card p {
+  margin: 5px 0;
+}
+
+.positive {
+  color: #1db489;
+}
+
+.negative {
+  color: #dc414c;
+}

@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle-label {
+    background-color: #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 20px;
+    margin-left: 10px;
+    position: relative;
+    width: 40px;
+  }
+  
+  #dark-mode-toggle {
+    display: none;
+  }
+  
+  #dark-mode-toggle:checked + .toggle-label::before {
+    left: 22px;
+  }
+  
+  .toggle-label::before {
+    background-color: #fff;
+    border-radius: 50%;
+    content: '';
+    height: 16px;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    transition: 0.3s;
+    width: 16px;
+  }

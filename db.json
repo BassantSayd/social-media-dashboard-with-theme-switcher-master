@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "facebook",
+      "handle": "nathanf",
+      "icon": "facebook",
+      "followers": 1987,
+      "change": 12
+    },
+    {
+      "id": 2,
+      "name": "twitter",
+      "handle": "nathanf",
+      "icon": "twitter",
+      "followers": 1044,
+      "change": 99
+    },
+    {
+      "id": 3,
+      "name": "instagram",
+      "handle": "realnathanf",
+      "icon": "instagram",
+      "followers": 11000,
+      "change": 1099
+    },
+    {
+      "id": 4,
+      "name": "youtube",
+      "handle": "Nathan F.",
+      "icon": "youtube",
+      "followers": 8239,
+      "change": -144
+    }
+  ]

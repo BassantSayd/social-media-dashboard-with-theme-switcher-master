@@ -1,0 +1,14 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.dark-mode body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}

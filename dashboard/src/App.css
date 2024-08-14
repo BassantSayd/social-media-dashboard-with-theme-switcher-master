@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+.dark-mode {
+  background-color: #1E1F26;
+  color: #FFFFFF;
+}
+
+.light-mode {
+  background-color: #FFFFFF;
+  color: white;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color:#E94560;
+  display: flex;
+  margin-left: 10%;
+}
+
+.header p {
+  margin-top: -10px;
+  font-size: 1.2rem;
+  color:#E94560;
+  display: flex;
+  margin-left: 10%;
+}
+
+.toggle-switch {
+  margin-top: 10px;
+  color:#E94560;
+  display: flex;
+  margin-left: 80%;
+}
+
+.toggle-switch input {
+  margin-left: 10px;
+  transform: scale(1.5);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  width: 220px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 10px;
+  background-color: #252A41;
+}
+
+.card h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.card .followers {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.profile-image1{
+  margin-left: 80%;
+  margin-top: 10px;
+  display: flex;
+}
+
+
+.card .type{
+  font-size: 1rem;
+  font-weight:lighter;
+}
+.card .today {
+  color: #1DB954;
+}
+
+.card.youtube .today {
+  color: #E94560;
+}
+
+.facebook {
+  background-color: #252A41;
+}
+
+.twitter {
+  background-color: #252A41;
+}
+
+.instagram {
+  background-color: #3c4469;
+}
+
+.youtube {
+  background-color: #252A41;
+}
+
+/* Overview Section */
+.overview-title {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: #E94560;
+  display: flex;
+  margin-left: 10%;
+}
+
+.overview-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.overview-card {
+  width: 220px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #252A41;
+  text-align: left;
+}
+
+.overview-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.overview-stat {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.overview-change {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.overview-change.positive {
+  color: #1DB954;
+}
+
+.overview-change.negative {
+  color: #E94560;
+}
